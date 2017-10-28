@@ -60,6 +60,7 @@ Quick Start
 * Signup a develop user(`demo/demo` exists), submit a deployment.
 * Project admin audit the deployment.
 * Developer deploy the deployment.
+* php-cgi.exe -b 127.0.0.1:9000 -c php.ini
 
 
 Custom
