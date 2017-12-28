@@ -48,6 +48,7 @@ cd walle-web
 vi config/local.php # set up module db mysql connection info
 composer install  # error cause by bower-asset, install：composer global require "fxp/composer-asset-plugin:*"
 ./yii walle/setup # init walle
+composer install --prefer-dist --no-dev --optimize-autoloader -vvvv
 ```
 Or [The Most Detailed Installation Guide](https://github.com/meolu/walle-web/blob/master/docs/install-en.md), any questions refer to [FAQ](https://github.com/meolu/walle-web/blob/master/docs/faq-en.md)
 
